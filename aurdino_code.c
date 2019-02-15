@@ -1,10 +1,10 @@
 #include<Servo.h>
 Servo myServo;
 const int piezo=A0;
-const int switchPin=2;
-const int yellowLed=3;
-const int greenLed=4;
-const int redLed=5;
+const int switchPin=3;
+const int yellowLed=4;
+const int greenLed=5;
+const int redLed=6;
 int knockVal;
 int switchVal;
 const int quietKnock=10;
